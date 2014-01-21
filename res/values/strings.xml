@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">WebViewTest</string>
+	<string name="title_activity_wotw">War of the Worlds</string>
+	<string name="title_activity_roundball">Roundball</string>
+</resources>
