@@ -3,4 +3,6 @@
 	<string name="app_name">WebViewTest</string>
 	<string name="title_activity_wotw">War of the Worlds</string>
 	<string name="title_activity_roundball">Roundball</string>
+	<string name="title_activity_jabberwocky">Jabberwocky</string>
+	<string name="title_activity_uofi_at_nasa">U of I at NASA</string>
 </resources>

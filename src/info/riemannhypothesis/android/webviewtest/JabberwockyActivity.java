@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-public class WotwActivity extends Activity {
+public class JabberwockyActivity extends Activity {
 
 	WebView webView;
 
@@ -13,7 +13,7 @@ public class WotwActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_web);
 		webView = (WebView) findViewById(R.id.webView);
-		webView.loadUrl("file:///android_asset/waroftheworlds.html");
+		webView.loadUrl("file:///android_asset/jabberwocky.html");
 	}
 
 	@Override
@@ -24,4 +24,5 @@ public class WotwActivity extends Activity {
 			super.onBackPressed();
 		}
 	}
+
 }

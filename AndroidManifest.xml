@@ -32,5 +32,25 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+		<activity
+			android:name="info.riemannhypothesis.android.webviewtest.JabberwockyActivity"
+			android:configChanges="orientation|smallestScreenSize|keyboardHidden"
+			android:label="@string/title_activity_jabberwocky"
+			android:screenOrientation="portrait" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="info.riemannhypothesis.android.webviewtest.UofiAtNasaActivity"
+			android:configChanges="orientation|smallestScreenSize|keyboardHidden"
+			android:label="@string/title_activity_uofi_at_nasa"
+			android:screenOrientation="portrait" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
 	</application>
 </manifest>
