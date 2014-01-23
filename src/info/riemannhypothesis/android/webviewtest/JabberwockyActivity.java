@@ -1,8 +1,11 @@
 package info.riemannhypothesis.android.webviewtest;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 
 public class JabberwockyActivity extends Activity {
@@ -13,8 +16,8 @@ public class JabberwockyActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_web);
-		webView = (WebView) findViewById(R.id.webView);
+		setContentView(R.layout.activity_jabberwocky);
+		webView = (WebView) findViewById(R.id.webViewJabberwocky);
 		webView.loadUrl("file:///android_asset/jabberwocky.html");
 	}
 
@@ -40,6 +43,16 @@ public class JabberwockyActivity extends Activity {
 		} else {
 			super.onBackPressed();
 		}
+	}
+
+	public void openWikipedia(View view) {
+		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.setData(Uri.parse("http://en.wikipedia.org/wiki/Jabberwocky"));
+		startActivity(intent);
+	}
+
+	public void loadImage(View view) {
+		webView.loadUrl("file:///android_asset/troll.jpg");
 	}
 
 }

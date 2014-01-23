@@ -5,4 +5,6 @@
 	<string name="title_activity_roundball">Roundball</string>
 	<string name="title_activity_jabberwocky">Jabberwocky</string>
 	<string name="title_activity_uofi_at_nasa">U of I at NASA</string>
+	<string name="wikipedia">Wikipedia</string>
+	<string name="beast">Beast!</string>
 </resources>
